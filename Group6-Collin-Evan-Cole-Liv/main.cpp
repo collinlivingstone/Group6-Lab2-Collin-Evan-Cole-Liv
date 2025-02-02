@@ -1,3 +1,9 @@
+//Collin
+//Evan
+//Liv
+//Cole
+//Group 6
+
 #include <iostream>
 #include <cmath>
 #include "Location.h"
@@ -6,10 +12,11 @@
 using namespace std;
 
 int main() {
-
+	//Create new drivers
 	Driver driver1;
 	Driver driver2;
 
+	//Create new trucks
 	Truck truck1;
 	Truck truck2;
 
@@ -35,9 +42,7 @@ int main() {
 	truck2.setTruckLocation(5, 2);
 
 
-
 	//Printing distances information
-
 	cout << "The distance between the two trucks is " << truck1.distanceFrom(truck2) << endl;
 	cout << "The distance between the truck (with ID = 178534) and the origin is " << truck1.distanceFrom() << endl;
 	cout << "The distance between the truck (with ID = 245817) and the origin is " << truck2.distanceFrom() << endl;

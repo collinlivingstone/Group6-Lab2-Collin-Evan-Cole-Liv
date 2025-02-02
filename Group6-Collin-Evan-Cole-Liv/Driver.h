@@ -3,7 +3,6 @@
 #include <iostream>;
 using namespace std;
 
-
 //Driver class
 class Driver {
 
@@ -28,8 +27,5 @@ public:
 	//Getters and setters for truck ID number
 	void setTruckID(int);
 	int getTruckID();
-
-
-
 
 };

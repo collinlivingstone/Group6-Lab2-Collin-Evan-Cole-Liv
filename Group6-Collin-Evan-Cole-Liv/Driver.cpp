@@ -2,11 +2,13 @@
 #include <cmath>
 #include "Driver.h"
 
+//Class functions for driver
 
-//Getters and setters for drivers first and last name
+//Getters and setters for drivers first name
 void Driver :: setFirstName(string firstName) {this->firstName = firstName;}
 string Driver :: getFirstName() {return this->firstName;}
 
+//Getters and setters for drivers last name
 void Driver :: setLastName(string lastName) {this->lastName = lastName;}
 string Driver :: getLastName() {return this->lastName;}
 
